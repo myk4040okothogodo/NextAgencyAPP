@@ -1,0 +1,114 @@
+import React from 'react'
+import SliderContainer, {SliderItem} from './slider'
+import Image from 'next/image'
+
+
+const ClientLogos: React.FC = () => (
+    <>
+      <SliderContainer className="" contentWidth={1290} initialOffsetX={0}>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/audobon.jpg"  
+              width={1225} 
+              height={80} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/shopify.webp"  
+              width={125} 
+              height={80} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/rivian.png"  
+              width={125} 
+              height={80} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem >
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/facebook.png"  
+              width={125} 
+              height={80} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem > 
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/oneweb.png"  
+              width={125} 
+              height={80} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/meta.jpg"  
+              width={125} 
+              height={80} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/tesla2.jpg"  
+              width={125} 
+              height={80} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/twitter.png"  
+              width={125} 
+              height={80} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/spacex.png"  
+              width={125} 
+              height={70} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/showtime.jpeg"  
+              width={125} 
+              height={70} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        <SliderItem width={125}>
+          <Image 
+              src="/assets/trustedby/netflix.avif"  
+              width={125} 
+              height={70} 
+              alt="Audobon" 
+              objectFit="contain"
+              />
+        </SliderItem>
+        
+      </SliderContainer>
+    </>
+)
+
+
+export default ClientLogos

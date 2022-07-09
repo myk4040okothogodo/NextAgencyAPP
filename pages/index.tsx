@@ -2,10 +2,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 //import styles from '../styles/Home.module.css'
-import Masthead from '../components/masthead'
-import AboutUs from  '../components/aboutus'
-import Skills from   '../components/skills'
+import Masthead from  '../components/masthead'
+import AboutUs from   '../components/aboutus'
+import Skills from    '../components/skills'
 import Works from     '../components/works'
+import TrustedBy from '../components/trustedby'
+import ContactUs from '../components/contactus'
+
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +22,8 @@ const Home: NextPage = () => {
       <AboutUs  />
       <Skills   />
       <Works    />
-      <AboutUs  />
+      <TrustedBy />
+      <ContactUs />
     </div>
   )
 }

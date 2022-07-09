@@ -1,14 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 
-
-
 export const WorkContainer: React.FC = ({ children }) => (
     <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen">
         {children}
     </div>
 )
-
 
 export const WorkBackground: React.FC = () => (
    <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen top-0  sticky">
@@ -51,5 +48,13 @@ interface LinkProps{
 }
 
 export const WorkLink: React.FC<LinkProps> = ({href, children}) => (
-    <Link href={href}><a target="_blank" rel="noreferrer" className="underline underline-offset-8 decoration-1">{children}</a></Link>
+    <Link href={href}>
+        <a 
+            target="_blank" 
+            rel="noreferrer" 
+            className="underline underline-offset-8 decoration-1"
+            >
+            {children}
+        </a>
+    </Link>
 )
