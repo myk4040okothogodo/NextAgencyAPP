@@ -17,7 +17,7 @@ const ClientLogos: React.FC = () => (
         </SliderItem>
         <SliderItem width={200}>
           <Image 
-              src="/assets/trustedby/shopify.webp"  
+              src="/assets/trustedby/shopify.png"  
               width={200} 
               height={80} 
               alt="Audobon" 
@@ -35,7 +35,7 @@ const ClientLogos: React.FC = () => (
         </SliderItem >
         <SliderItem width={150}>
           <Image 
-              src="/assets/trustedby/facebook.png"  
+              src="/assets/trustedby/facebook.jpg"  
               width={150} 
               height={80} 
               alt="Audobon" 
@@ -44,7 +44,7 @@ const ClientLogos: React.FC = () => (
         </SliderItem > 
         <SliderItem width={150}>
           <Image 
-              src="/assets/trustedby/oneweb.png"  
+              src="/assets/trustedby/oneweb.webp"  
               width={150} 
               height={80} 
               alt="Audobon" 
@@ -91,7 +91,7 @@ const ClientLogos: React.FC = () => (
         </SliderItem>
         <SliderItem width={150}>
           <Image 
-              src="/assets/trustedby/showtime.jpeg"  
+              src="/assets/trustedby/showtime.png"  
               width={150} 
               height={80} 
               alt="Audobon" 
@@ -100,7 +100,7 @@ const ClientLogos: React.FC = () => (
         </SliderItem>
         <SliderItem width={150}>
           <Image 
-              src="/assets/trustedby/netflix.avif"  
+              src="/assets/trustedby/netflix.png"  
               width={150} 
               height={80} 
               alt="Audobon" 
