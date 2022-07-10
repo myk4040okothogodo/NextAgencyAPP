@@ -15,7 +15,7 @@ const Testimonials: React.FC = () => (
         <CarouselItem index={1}>
             <Review by="Adam (Ceo of Pink Panda)">
                 Margelo is a collection of world class talent, from react-native,
-                to website, full stack to desing, I've been nothing but pleased 
+                to website, full stack to desing, I have been nothing but pleased 
                 with their communication, imagination, insight and delivery.
             </Review>
         </CarouselItem>
