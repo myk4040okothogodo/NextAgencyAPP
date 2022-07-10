@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const ClientLogos: React.FC = () => (
     <>
-      <SliderContainer className="" contentWidth={1290} initialOffsetX={0}>
+      <SliderContainer contentWidth={1290} initialOffsetX={0}>
         <SliderItem width={150}>
           <Image 
               src="/assets/trustedby/audobon.jpg"  
